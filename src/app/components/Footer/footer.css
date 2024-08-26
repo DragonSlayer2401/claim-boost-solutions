@@ -1,11 +1,29 @@
+/* ========== Footer Styles ========== */
+
+/* Footer Layout & Background */
 footer {
   background: #343a40;
+}
+
+/* Footer Typography */
+footer h4,
+footer p,
+footer a,
+footer li {
+  color: #f8f9fa;
+}
+
+footer h4,
+footer p,
+footer a {
+  font-family: 'Roboto', sans-serif;
 }
 
 footer p {
   line-height: 1.6;
 }
 
+/* Footer Links */
 footer a {
   transition: background-color 0.3s ease;
 }
@@ -14,14 +32,7 @@ footer a:hover {
   color: #ced4da;
 }
 
-/* General footer styling */
-footer h4,
-footer p,
-footer a,
-footer li {
-  color: #f8f9fa;
-}
-
+/* Footer Layout */
 footer ul,
 footer p,
 footer h4,
@@ -29,10 +40,4 @@ footer a,
 footer address {
   max-width: 300px;
   min-width: 200px;
-}
-
-footer h4,
-footer p,
-footer a {
-  font-family: 'Roboto', sans-serif;
 }
