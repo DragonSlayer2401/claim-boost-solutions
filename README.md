@@ -79,7 +79,7 @@ npm run dev
 
 This will start the development server. Open http://localhost:3000 in your browser to view the website.
 
-## **File Structure**
+## **Folder Structure**
 ```
 quick-claim-supplements/
 │
