@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Quick Claim Supplements - Website**
 
-## Getting Started
+Welcome to the official repository for the Quick Claim Supplements website. This website is designed to provide a seamless user experience for clients looking to maximize the value of their insurance claims through expert supplementing and estimating services.
 
-First, run the development server:
+## **Table of Contents**
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contact](#contact)
+
+## **Project Overview**
+
+The Quick Claim Supplements website is designed to offer clear, detailed information on our services, including comprehensive claim reviews, expert negotiation, timely updates, and dedicated support. The site features a responsive design, ensuring accessibility and usability across all devices.
+
+## **Features**
+
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Service Overview:** Detailed sections describing the core services offered.
+- **Contact Information:** Easy-to-find contact details and call-to-action buttons.
+- **Smooth Navigation:** User-friendly navigation with smooth hover effects and transitions.
+
+## **Technologies Used**
+
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - JavaScript
+  - [React.js](https://reactjs.org/)
+  - [React Bootstrap](https://react-bootstrap.github.io/)
+- **Backend:**
+  - [Next.js](https://nextjs.org/)
+- **Styling:**
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - Custom CSS for specific components
+- **Version Control:**
+  - Git
+  - GitHub
+
+## **Getting Started**
+
+To get a local copy up and running, follow these simple steps.
+
+### **Prerequisites**
+
+- Ensure you have Node.js and npm installed.
+
+## **Installation**
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/quick-claim-supplements.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd quick-claim-supplements
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## **Usage**
+
+To run this project locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server. Open http://localhost:3000 in your browser to view the website.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## **File Structure**
+```
+quick-claim-supplements/
+│
+├── public/
+│   ├── images/
+│   └── favicon.ico
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   ├── about/
+│   │   │   └── page.js
+│   │   ├── services/
+│   │   │   └── page.js
+│   │   ├── contact/
+│   │   │   └── page.js
+│   │   ├── components/
+│   │   │   ├── Cards/
+│   │   │   │   ├── card.css
+│   │   │   │   └── InfoCard.jsx
+│   │   │   ├── Footer/
+│   │   │   │   ├── footer.css
+│   │   │   │   └── Footer.jsx
+│   │   │   ├── Header/
+│   │   │   │   ├── header.css
+│   │   │   │   └── NavBar.jsx
+│   │   │   └── Sections/
+│   │   │       ├── HeroSection.jsx
+│   │   │       ├── InfoSection.jsx
+│   │   │       └── section.css
+│   │   └── globals.css
+│   │
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tailwind.config.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### **Explanation:**
+#### **Root Files:**
+- **jsconfig.json:** JavaScript configuration file.
+- **next.config.mjs:** Configuration file for Next.js, using the ESM module format.
+- **package-lock.json:** Keeps track of the exact versions of dependencies installed.
+- **package.json:** Lists dependencies and scripts for the project.
+- **postcss.config.mjs:** Configuration file for PostCSS.
+- **README.md:** Documentation for the project.
+- **tailwind.config.js:** Configuration file for Tailwind CSS.
 
-## Learn More
+## **Contact**
+For any inquiries or issues, please contact us at:
 
-To learn more about Next.js, take a look at the following resources:
+- **Email:** [](mailto:)
+- **Phone:** [(407) 913-5152](tel:+14079135152)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can also visit our website at [Quick Claim Supplements](#).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
