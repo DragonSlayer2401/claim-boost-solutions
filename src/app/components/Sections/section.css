@@ -1,32 +1,36 @@
-/* Hero section text & image */
+/* ========== Hero Section Styles ========== */
+
+/* Hero Section Layout & Background */
 #hero {
   position: relative; /* Allows us to position the overlay */
   background: #e9f4fb; /* Fallback for when the image fails to load */
   padding-top: 106px; /* This is the height of the navbar */
-  background-position: center; /* Center the image */
-  background-size: cover; /* Cover the entire area */
-  height: 600px; /* Set the height of the hero */
+  background-position: center;
+  background-size: cover;
+  height: 600px;
 }
 
+/* Hero Section Overlay */
 #hero .overlay {
   position: absolute; /* Positions the overlay inside of the hero */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(220, 225, 230, 0.5); 
-  z-index: 1; /* Ensure this is behind the text */
+  background: rgba(220, 225, 230, 0.5);
+  z-index: 1; /* Ensures this is behind the text */
 }
 
+/* Hero Section Typography */
 #hero h1,
 #hero h2,
 #hero p,
 #hero a {
-  position: relative;
+  position: relative; /* Ensures text and links are above the overlay */
   z-index: 2;
 }
 
-/* Hero section buttons */
+/* Hero Section Buttons */
 #hero .btn {
   background: #0d6efd;
   transition: background-color 0.3s ease;
@@ -36,7 +40,7 @@
   background: #0b5ed7;
 }
 
-/* Hero section fonts */
+/* Hero Section Fonts */
 #hero h1 {
   font-family: 'Merriweather', serif;
 }
@@ -47,7 +51,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* Hero section media queries */
+/* Hero Section Media Queries */
 @media (max-width: 460px) {
   #hero {
     height: 650px;
@@ -60,13 +64,15 @@
   }
 }
 
-/* Info section */
+/* ========== Info Section Styles ========== */
+
+/* Info Section Layout & Background */
 #infoSection {
   background: #f8f9fa;
   padding: 60px 20px;
 }
 
-/* Info section fonts */
+/* Info Section Typography */
 #infoSection h2 {
   font-family: 'Merriweather', serif;
   font-size: 28px;
@@ -76,7 +82,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* general section styling */
+/* ========== General Section Styling ========== */
+
+/* General Typography for Sections */
 .section p,
 .section h1,
 .section h2,
