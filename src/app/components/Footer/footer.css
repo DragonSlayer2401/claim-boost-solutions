@@ -9,7 +9,8 @@ footer {
 footer h4,
 footer p,
 footer a,
-footer li {
+footer li,
+footer span {
   color: #f8f9fa;
 }
 
