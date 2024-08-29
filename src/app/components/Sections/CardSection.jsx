@@ -1,8 +1,8 @@
 import './section.css';
 
-const InfoSection = ({ title, children }) => {
+const CardSection = ({ title, children }) => {
   return (
-    <section id="infoSection" className='section'>
+    <section className='cardSection section'>
       <h2 className="text-center font-bold mb-10">{title}</h2>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         {children}
@@ -11,4 +11,4 @@ const InfoSection = ({ title, children }) => {
   );
 };
 
-export default InfoSection;
+export default CardSection;

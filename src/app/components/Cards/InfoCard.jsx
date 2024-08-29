@@ -4,7 +4,7 @@ import './card.css';
 const InfoCard = ({ title, body, icon }) => {
   return (
     <>
-      <Card className="rounded-lg p-5 border-none" id="infoCard">
+      <Card className="rounded-lg p-5 border-none infoCard">
         {icon}
         <CardBody>
           <CardTitle as="h3" className="text-center font-bold text-2xl !mb-4">

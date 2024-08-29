@@ -1,9 +1,9 @@
 import NavBar from './components/Header/NavBar';
 import logo from '../../public/images/logo-bottom.png';
-import homeHero from '../../public/images/home-hero.jpg';
+import homeHero from '../../public/images/home-hero.webp';
 import Footer from './components/Footer/Footer';
 import HeroSection from './components/Sections/HeroSection';
-import InfoSection from './components/Sections/InfoSection';
+import InfoSection from './components/Sections/CardSection';
 import InfoCard from './components/Cards/InfoCard';
 import { FiCheckSquare, FiClock } from 'react-icons/fi';
 import { FaHandshake, FaHeadset } from 'react-icons/fa';
@@ -30,6 +30,12 @@ export const metadata = {
         height: 500,
         alt: 'Quick Claim Supplements Logo',
       },
+      {
+        url: homeHero.src,
+        width: 1280,
+        height: 854,
+        alt: 'Professional working on documents',
+      },
     ],
     url: '#',
     type: 'website',
@@ -44,22 +50,22 @@ export default function Home() {
     {
       title: 'Comprehensive Claim Review',
       body: 'Our team meticulously reviews each claim to identify opportunities for maximization, ensuring no detail is overlooked.',
-      icon: <FiCheckSquare size={40} className='mx-auto !mb-4' />,
+      icon: <FiCheckSquare size={40} className="mx-auto !mb-4" />,
     },
     {
       title: 'Expert Negotiation',
       body: 'We engage directly with insurance companies to secure the highest possible returns on your claims.',
-      icon: <FaHandshake size={40} className='mx-auto !mb-4' />,
+      icon: <FaHandshake size={40} className="mx-auto !mb-4" />,
     },
     {
       title: 'Timely and Transparent',
       body: 'We provide regular updates and ensure that every supplement is processed efficiently, keeping your projects on track.',
-      icon: <FiClock size={40} className='mx-auto !mb-4' />,
+      icon: <FiClock size={40} className="mx-auto !mb-4" />,
     },
     {
       title: 'Dedicated Support',
       body: 'Our commitment to personalized service means we are always available to assist with any questions or challenges.',
-      icon: <FaHeadset size={40} className='mx-auto !mb-4' />,
+      icon: <FaHeadset size={40} className="mx-auto !mb-4" />,
     },
   ];
 

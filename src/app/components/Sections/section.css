@@ -4,10 +4,11 @@
 #hero {
   position: relative; /* Allows us to position the overlay */
   background: #e9f4fb; /* Fallback for when the image fails to load */
-  padding-top: 106px; /* This is the height of the navbar */
+  padding-top: 207px; 
+  padding-bottom: 101px;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 100%;
 }
 
 /* Hero Section Overlay */
@@ -46,40 +47,60 @@
 }
 
 #hero h2,
-#hero p,
-#hero .btn {
+#hero p {
   font-family: 'Roboto', sans-serif;
 }
 
 /* Hero Section Media Queries */
 @media (max-width: 460px) {
   #hero {
-    height: 650px;
-  }
-}
-
-@media (max-width: 387px) {
-  #hero {
-    height: 750px;
+    height: 100%;
   }
 }
 
 /* ========== Info Section Styles ========== */
 
 /* Info Section Layout & Background */
-#infoSection {
+.cardSection {
   background: #f8f9fa;
   padding: 60px 20px;
 }
 
-/* Info Section Typography */
-#infoSection h2 {
-  font-family: 'Merriweather', serif;
-  font-size: 28px;
+/* ========== Text Section Styles ========== */
+
+/* Text Section Layout & Background */
+.textSection {
+  background: #f8f9fa;
+  padding: 60px 20px;
 }
 
-#infoSection p {
-  font-family: 'Roboto', sans-serif;
+.textSection .icon {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 36px;
+}
+
+/* Text Section Typography */
+.textSection h2 {
+  line-height: 1.3;
+}
+
+.textSection p {
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 15px auto;
+}
+
+/* Text Section Button Styling */
+.textSection .btn {
+  margin: 20px auto;
+  max-width: 192.46px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textSection .btn:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* ========== General Section Styling ========== */
@@ -90,4 +111,26 @@
 .section h2,
 .section h3 {
   color: #343a40;
+}
+
+.section h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
+}
+
+.section p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* General Button Styling for Sections */
+.section .btn {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  background: #0d6efd;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section .btn:hover {
+  background: #0b5ed7;
 }

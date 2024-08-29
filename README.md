@@ -109,7 +109,8 @@ quick-claim-supplements/
 │   │   │   │   └── NavBar.jsx
 │   │   │   └── Sections/
 │   │   │       ├── HeroSection.jsx
-│   │   │       ├── InfoSection.jsx
+│   │   │       ├── CardSection.jsx
+│   │   │       ├── TextSection.jsx
 │   │   │       └── section.css
 │   │   └── globals.css
 │   │

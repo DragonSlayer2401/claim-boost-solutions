@@ -5,7 +5,7 @@ const HeroSection = ({ heading, subheading, bgImage, children }) => {
   return (
     <section
       className="w-full flex flex-col justify-center px-5 section"
-      id='hero'
+      id="hero"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="overlay"></div>
@@ -18,7 +18,10 @@ const HeroSection = ({ heading, subheading, bgImage, children }) => {
       <p className="text-base mb-8 !text-center md:!text-left md:text-lg">
         {children}
       </p>
-      <Button className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold block mx-auto" href='/contact'>
+      <Button
+        className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold block mx-auto"
+        href="/contact"
+      >
         Get Started Today
       </Button>
     </section>
