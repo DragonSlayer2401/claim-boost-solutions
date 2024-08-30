@@ -77,6 +77,7 @@ export default function Home() {
           heading="Your Fast Track to Supplementing and Estimating"
           subheading="We prioritize your needs to ensure every claim is handled with care."
           bgImage={homeHero.src}
+          ctaButton={true}
         >
           Welcome to Quick Claim Supplements. Our mission is to help you
           maximize the value of your insurance claims through our expert

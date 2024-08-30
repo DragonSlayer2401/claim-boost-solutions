@@ -4,7 +4,7 @@
 #hero {
   position: relative; /* Allows us to position the overlay */
   background: #e9f4fb; /* Fallback for when the image fails to load */
-  padding-top: 207px; 
+  padding-top: 207px;
   padding-bottom: 101px;
   background-position: center;
   background-size: cover;
@@ -31,48 +31,13 @@
   z-index: 2;
 }
 
-/* Hero Section Buttons */
-#hero .btn {
-  background: #0d6efd;
-  transition: background-color 0.3s ease;
-}
-
-#hero .btn:hover {
-  background: #0b5ed7;
-}
-
-/* Hero Section Fonts */
-#hero h1 {
-  font-family: 'Merriweather', serif;
-}
-
-#hero h2,
-#hero p {
+#hero h2 {
   font-family: 'Roboto', sans-serif;
-}
-
-/* Hero Section Media Queries */
-@media (max-width: 460px) {
-  #hero {
-    height: 100%;
-  }
-}
-
-/* ========== Info Section Styles ========== */
-
-/* Info Section Layout & Background */
-.cardSection {
-  background: #f8f9fa;
-  padding: 60px 20px;
 }
 
 /* ========== Text Section Styles ========== */
 
 /* Text Section Layout & Background */
-.textSection {
-  background: #f8f9fa;
-  padding: 60px 20px;
-}
 
 .textSection .icon {
   margin: 0 auto;
@@ -95,42 +60,20 @@
 /* Text Section Button Styling */
 .textSection .btn {
   margin: 20px auto;
-  max-width: 192.46px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.textSection .btn:hover {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* ========== General Section Styling ========== */
 
-/* General Typography for Sections */
-.section p,
-.section h1,
-.section h2,
-.section h3 {
-  color: #343a40;
+.section {
+  padding: 60px 20px;
 }
 
+/* General Typography for Sections */
+
 .section h2 {
-  font-family: 'Merriweather', serif;
   font-size: 28px;
 }
 
 .section p {
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-}
-
-/* General Button Styling for Sections */
-.section .btn {
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  background: #0d6efd;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section .btn:hover {
-  background: #0b5ed7;
 }

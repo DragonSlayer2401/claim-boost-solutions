@@ -59,6 +59,7 @@ export default function About() {
           heading="About Quick Claim Supplements"
           subheading="Leading Expert in Supplementing and Estimating Solutions"
           bgImage={homeHero.src}
+          ctaButton={true}
         >
           Since 2013, Quick Claim Supplements has been a trusted partner for
           contractors and businesses seeking to maximize their insurance claims.

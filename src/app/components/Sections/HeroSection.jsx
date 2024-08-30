@@ -1,7 +1,7 @@
 import './section.css';
 import { Button } from 'react-bootstrap';
 
-const HeroSection = ({ heading, subheading, bgImage, children }) => {
+const HeroSection = ({ heading, subheading, bgImage, ctaButton, children }) => {
   return (
     <section
       className="w-full flex flex-col justify-center px-5 section"
@@ -18,12 +18,12 @@ const HeroSection = ({ heading, subheading, bgImage, children }) => {
       <p className="text-base mb-8 !text-center md:!text-left md:text-lg">
         {children}
       </p>
-      <Button
+      {ctaButton && <Button
         className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold block mx-auto"
         href="/contact"
       >
         Get Started Today
-      </Button>
+      </Button>}
     </section>
   );
 };
