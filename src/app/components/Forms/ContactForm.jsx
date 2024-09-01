@@ -1,20 +1,50 @@
 'use client';
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Spinner } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import './form.css';
-import { Container } from 'postcss';
+import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
 
 const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isSubmitting },
     reset,
   } = useForm();
 
-  const onSubmit = (data) => {
-    reset();
+  const onSubmit = async (data) => {
+    try {
+      const formData = new FormData();
+
+      formData.append('name', data.name);
+      formData.append('email', data.email);
+      formData.append('subject', data.subject);
+      formData.append('message', data.message);
+
+      if (data.files && data.files.length > 0) {
+        Array.from(data.files).forEach((file) => {
+          formData.append('uploadedFiles', file);
+        });
+      }
+
+      const response = await axios.post('/api/email', formData);
+
+      if (response.data.success === true) {
+        toast.success('Email sent successfully', { theme: 'colored', ariaLive: 'polite' });
+        reset();
+      } else {
+        toast.error('Failed to send email. Please try again.', {
+          theme: 'colored',
+        });
+      }
+    } catch (error) {
+      toast.error('An error occurred. Please try again later.', {
+        theme: 'colored',
+      });
+      reset();
+    }
   };
 
   return (
@@ -34,7 +64,14 @@ const ContactForm = () => {
             name="name"
             placeholder="Enter your name"
             className="p-3"
-            {...register('name', { required: 'Full Name is required' })}
+            {...register('name', {
+              required: 'Full Name is required',
+              pattern: {
+                value:
+                  /^\s*[A-Za-zÀ-ÖØ-öø-ÿ]+([ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*\s+[A-Za-zÀ-ÖØ-öø-ÿ]+([ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*\s*$/,
+                message: 'Invalid name',
+              },
+            })}
           />
           {errors.name && (
             <p className="text-red-500 !text-sm">{errors.name.message}</p>
@@ -89,7 +126,13 @@ const ContactForm = () => {
             name="message"
             placeholder="Enter your message"
             className="p-3"
-            {...register('message', { required: 'Message is required' })}
+            {...register('message', {
+              required: 'Message is required',
+              minLength: {
+                value: 20,
+                message: 'Message must be at least 20 characters',
+              },
+            })}
           />
           {errors.message && (
             <p className="text-red-500 !text-sm">{errors.message.message}</p>
@@ -111,10 +154,34 @@ const ContactForm = () => {
         <Button
           type="submit"
           className="block mx-auto rounded-lg py-3 px-6 font-bold text-lg"
+          disabled={isSubmitting}
         >
-          Send Message
+          {!isSubmitting ? (
+            'Send Message'
+          ) : (
+            <>
+              <Spinner
+                as="span"
+                animation="border"
+                size="sm"
+                role="status"
+                aria-hidden={true}
+              />{' '}
+              Sending...
+            </>
+          )}
         </Button>
       </Form>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        newestOnTop={true}
+        closeOnClick
+        pauseOnHover
+        pauseOnFocusLoss
+        role="alert"
+        aria-live="assertive"
+      />
     </>
   );
 };

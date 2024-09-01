@@ -50,22 +50,22 @@ export default function Home() {
     {
       title: 'Comprehensive Claim Review',
       body: 'Our team meticulously reviews each claim to identify opportunities for maximization, ensuring no detail is overlooked.',
-      icon: <FiCheckSquare size={40} className="mx-auto !mb-4" />,
+      icon: <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />,
     },
     {
       title: 'Expert Negotiation',
       body: 'We engage directly with insurance companies to secure the highest possible returns on your claims.',
-      icon: <FaHandshake size={40} className="mx-auto !mb-4" />,
+      icon: <FaHandshake size={40} className="mx-auto !mb-4" aria-hidden={true} />,
     },
     {
       title: 'Timely and Transparent',
       body: 'We provide regular updates and ensure that every supplement is processed efficiently, keeping your projects on track.',
-      icon: <FiClock size={40} className="mx-auto !mb-4" />,
+      icon: <FiClock size={40} className="mx-auto !mb-4" aria-hidden={true} />,
     },
     {
       title: 'Dedicated Support',
       body: 'Our commitment to personalized service means we are always available to assist with any questions or challenges.',
-      icon: <FaHeadset size={40} className="mx-auto !mb-4" />,
+      icon: <FaHeadset size={40} className="mx-auto !mb-4" aria-hidden={true} />,
     },
   ];
 
