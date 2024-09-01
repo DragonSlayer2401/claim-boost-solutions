@@ -38,11 +38,11 @@ export const metadata = {
         alt: 'Professional working on documents',
       },
     ],
-    url: '#/contact',
+    url: `${process.env.DOMAIN}/contact`,
     type: 'website',
   },
   alternatives: {
-    canonical: '#/contact',
+    canonical: `${process.env.DOMAIN}/contact`,
   },
 };
 
