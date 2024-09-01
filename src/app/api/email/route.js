@@ -69,10 +69,3 @@ export async function POST(request) {
     );
   }
 }
-
-// Disable body parsing to use formidable
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
