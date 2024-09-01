@@ -37,11 +37,11 @@ export const metadata = {
         alt: 'Professional working on documents',
       },
     ],
-    url: '#',
+    url: `${process.env.DOMAIN}`,
     type: 'website',
   },
   alternatives: {
-    canonical: '#',
+    canonical: `${process.env.DOMAIN}`,
   },
 };
 

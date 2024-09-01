@@ -19,7 +19,43 @@ import {
 } from 'react-icons/fi';
 
 export const metadata = {
-  title: 'Services | Quick Claim Supplements',
+  title: 'Comprehensive Insurance Claim Services | Quick Claim Supplements',
+  description:
+    'Quick Claim Supplements offers specialized supplementing, estimating, and consulting services designed to maximize your insurance claim returns. With a focus on accuracy, efficiency, and customer satisfaction, we help you secure top dollar for every claim.',
+  keywords: [
+    'insurance claim supplementing',
+    'estimating services',
+    'business consulting',
+    'maximize insurance claims',
+    'Quick Claim Supplements',
+    'contractor services',
+    'insurance consulting',
+    'claim management',
+  ],
+  openGraph: {
+    title: 'Comprehensive Insurance Claim Services | Quick Claim Supplements',
+    description:
+      'At Quick Claim Supplements, we are dedicated to helping contractors and businesses maximize their insurance claim returns through expert supplementing, accurate estimating, and strategic consulting. Our services are tailored to enhance profitability and ensure every claim is handled with care.',
+    image: [
+      {
+        url: logo.src,
+        width: 500,
+        height: 500,
+        alt: 'Quick Claim Supplements Logo',
+      },
+      {
+        url: homeHero.src,
+        width: 1280,
+        height: 854,
+        alt: 'Professional working on documents',
+      },
+    ],
+    url: `${process.env.DOMAIN}/services`,
+    type: 'website',
+  },
+  alternatives: {
+    canonical: `${process.env.DOMAIN}/services`,
+  },
 };
 
 export default function Services() {
