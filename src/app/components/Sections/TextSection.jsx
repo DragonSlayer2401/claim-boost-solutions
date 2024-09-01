@@ -6,7 +6,7 @@ const TextSection = ({
   children,
   ctaButton = { show: false },
   bgColor,
-  border,
+  border = true,
   icon,
 }) => {
   return (

@@ -65,8 +65,8 @@ export default function Services() {
           to ensure your business thrives.
         </HeroSection>
         <TextSection
-          border={true}
           title="Maximize Your Insurance Claim with Expert Supplementing"
+          ctaButton={{ show: true }}
         >
           Our supplementing services are tailored to help you receive the
           maximum possible reimbursement for your insurance claims. We conduct a
@@ -76,8 +76,8 @@ export default function Services() {
           negotiate on your behalf to secure the best possible outcome.
         </TextSection>
         <TextSection
-          border={true}
           title="Accurate Estimating for Maximum Claim Value"
+          ctaButton={{ show: true, text: 'Get a Quote' }}
         >
           Quick Claim Supplements offers precise estimating services to ensure
           your insurance claims are fully documented and valued accurately.
@@ -87,8 +87,8 @@ export default function Services() {
           of the job is accounted for.
         </TextSection>
         <TextSection
-          border={true}
           title="Optimize Your Business with Expert Consulting"
+          ctaButton={{ show: true, text: 'Start Consulting' }}
         >
           Beyond our core services, Quick Claim Supplements provides consulting
           to help your business run more efficiently and profitably. We work
