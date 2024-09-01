@@ -18,12 +18,14 @@ const HeroSection = ({ heading, subheading, bgImage, ctaButton, children }) => {
       <p className="text-base mb-8 !text-center md:!text-left md:text-lg">
         {children}
       </p>
-      {ctaButton && <Button
-        className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold block mx-auto"
-        href="/contact"
-      >
-        Get Started Today
-      </Button>}
+      {ctaButton && (
+        <Button
+          className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold block mx-auto"
+          href="/contact"
+        >
+          Get Started Today
+        </Button>
+      )}
     </section>
   );
 };
