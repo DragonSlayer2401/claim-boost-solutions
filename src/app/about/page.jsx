@@ -56,10 +56,9 @@ export default function About() {
       <NavBar />
       <main>
         <HeroSection
+          bgImage={homeHero.src}
           heading="About Quick Claim Supplements"
           subheading="Leading Expert in Supplementing and Estimating Solutions"
-          bgImage={homeHero.src}
-          ctaButton={true}
         >
           Since 2013, Quick Claim Supplements has been a trusted partner for
           contractors and businesses seeking to maximize their insurance claims.
@@ -71,8 +70,7 @@ export default function About() {
         </HeroSection>
         <TextSection
           title="Unmatched Insurance Supplementing Services"
-          border={true}
-          icon={<FaRegCircleCheck className="icon" />}
+          icon={<FaRegCircleCheck className="icon" aria-hidden={true} />}
         >
           At Quick Claim Supplements, I pride myself on delivering unmatched
           service in supplementing and estimating. My focus is on ensuring that
@@ -82,8 +80,7 @@ export default function About() {
         </TextSection>
         <TextSection
           title="The Journey of Quick Claim Supplements"
-          border={true}
-          icon={<FaHistory className="icon" />}
+          icon={<FaHistory className="icon" aria-hidden={true} />}
         >
           Quick Claim Supplements was founded in 2013 after my experience as a
           project manager opened my eyes to the need for dedicated supplementing
@@ -95,8 +92,7 @@ export default function About() {
         </TextSection>
         <TextSection
           title="Our Core Values: Integrity and Customer Satisfaction"
-          border={true}
-          icon={<FaRegHandshake className="icon" />}
+          icon={<FaRegHandshake className="icon" aria-hidden={true} />}
         >
           As the sole operator of Quick Claim Supplements, my values guide every
           decision I make. I believe in integrity, transparency, and a
@@ -106,15 +102,9 @@ export default function About() {
         </TextSection>
         <TextSection
           title="Maximize Your Insurance Claims with Expert Guidance"
-          ctaButton={
-            <Button
-              href="/contact"
-              className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold"
-            >
-              Contact Us
-            </Button>
-          }
-          icon={<MdOutlineContactMail className="icon" />}
+          border={false}
+          ctaButton={{ show: true }}
+          icon={<MdOutlineContactMail className="icon" aria-hidden={true} />}
         >
           Contact Quick Claim Supplements today to learn how I can help you
           maximize the value of your insurance claims. I am ready to provide the

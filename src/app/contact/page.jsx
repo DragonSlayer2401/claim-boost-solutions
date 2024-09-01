@@ -52,10 +52,10 @@ export default function Contact() {
       <NavBar />
       <main>
         <HeroSection
+          bgImage={homeHero.src}
+          ctaButton={{ show: false }}
           heading="Contact Quick Claim Supplements"
           subheading="Your Partner in Maximizing Insurance Claims Since 2013"
-          bgImage={homeHero.src}
-          ctaButton={false}
         >
           At Quick Claim Supplements, we are committed to providing you with
           personalized service and expert guidance to ensure that your insurance

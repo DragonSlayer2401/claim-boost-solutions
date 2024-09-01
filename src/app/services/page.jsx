@@ -6,9 +6,17 @@ import HeroSection from '../components/Sections/HeroSection';
 import TextSection from '../components/Sections/TextSection';
 import CardSection from '../components/Sections/CardSection';
 import { FaGavel, FaHandshake, FaPaperPlane, FaSearch } from 'react-icons/fa';
-import { BsClipboard2CheckFill } from "react-icons/bs";
+import { BsClipboard2CheckFill } from 'react-icons/bs';
 import InfoCard from '../components/Cards/InfoCard';
-import { FiBriefcase, FiCheckCircle, FiCheckSquare, FiClipboard, FiSearch, FiSend, FiUsers } from 'react-icons/fi';
+import {
+  FiBriefcase,
+  FiCheckCircle,
+  FiCheckSquare,
+  FiClipboard,
+  FiSearch,
+  FiSend,
+  FiUsers,
+} from 'react-icons/fi';
 
 export const metadata = {
   title: 'Services | Quick Claim Supplements',
@@ -34,7 +42,9 @@ export default function Services() {
     {
       title: 'Negotiation & Settlement',
       body: 'Negotiation with the insurance company to secure the highest settlement.',
-      icon: <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />,
+      icon: (
+        <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />
+      ),
     },
   ];
 
@@ -44,7 +54,6 @@ export default function Services() {
       <main>
         <HeroSection
           bgImage={homeHero.src}
-          ctaButton={true}
           heading="Comprehensive Supplementing, Estimating, and Consulting Services"
           subheading="Maximize Your Insurance Claims with Expert Guidance"
         >
@@ -56,8 +65,8 @@ export default function Services() {
           to ensure your business thrives.
         </HeroSection>
         <TextSection
-          border={true}
           title="Maximize Your Insurance Claim with Expert Supplementing"
+          ctaButton={{ show: true }}
         >
           Our supplementing services are tailored to help you receive the
           maximum possible reimbursement for your insurance claims. We conduct a
@@ -67,8 +76,8 @@ export default function Services() {
           negotiate on your behalf to secure the best possible outcome.
         </TextSection>
         <TextSection
-          border={true}
           title="Accurate Estimating for Maximum Claim Value"
+          ctaButton={{ show: true, text: 'Get a Quote' }}
         >
           Quick Claim Supplements offers precise estimating services to ensure
           your insurance claims are fully documented and valued accurately.
@@ -78,8 +87,8 @@ export default function Services() {
           of the job is accounted for.
         </TextSection>
         <TextSection
-          border={true}
           title="Optimize Your Business with Expert Consulting"
+          ctaButton={{ show: true, text: 'Start Consulting' }}
         >
           Beyond our core services, Quick Claim Supplements provides consulting
           to help your business run more efficiently and profitably. We work

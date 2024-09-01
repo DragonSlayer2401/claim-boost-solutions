@@ -1,7 +1,13 @@
 import './section.css';
 import { Button } from 'react-bootstrap';
 
-const HeroSection = ({ heading, subheading, bgImage, ctaButton, children }) => {
+const HeroSection = ({
+  heading,
+  subheading,
+  bgImage,
+  ctaButton = { show: true },
+  children,
+}) => {
   return (
     <section
       className="w-full flex flex-col justify-center px-5 section"
@@ -18,12 +24,12 @@ const HeroSection = ({ heading, subheading, bgImage, ctaButton, children }) => {
       <p className="text-base mb-8 !text-center md:!text-left md:text-lg">
         {children}
       </p>
-      {ctaButton && (
+      {ctaButton.show && (
         <Button
           className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold block mx-auto"
-          href="/contact"
+          href={ctaButton?.link || '/contact'}
         >
-          Get Started Today
+          {ctaButton?.text || 'Get Started'}
         </Button>
       )}
     </section>
