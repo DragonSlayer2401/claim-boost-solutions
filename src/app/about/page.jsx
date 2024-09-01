@@ -56,10 +56,9 @@ export default function About() {
       <NavBar />
       <main>
         <HeroSection
+          bgImage={homeHero.src}
           heading="About Quick Claim Supplements"
           subheading="Leading Expert in Supplementing and Estimating Solutions"
-          bgImage={homeHero.src}
-          ctaButton={true}
         >
           Since 2013, Quick Claim Supplements has been a trusted partner for
           contractors and businesses seeking to maximize their insurance claims.
@@ -106,14 +105,7 @@ export default function About() {
         </TextSection>
         <TextSection
           title="Maximize Your Insurance Claims with Expert Guidance"
-          ctaButton={
-            <Button
-              href="/contact"
-              className="text-white text-lg border-none rounded-lg py-3 px-6 font-bold"
-            >
-              Contact Us
-            </Button>
-          }
+          ctaButton={{ show: true }}
           icon={<MdOutlineContactMail className="icon" />}
         >
           Contact Quick Claim Supplements today to learn how I can help you

@@ -50,12 +50,16 @@ export default function Home() {
     {
       title: 'Comprehensive Claim Review',
       body: 'Our team meticulously reviews each claim to identify opportunities for maximization, ensuring no detail is overlooked.',
-      icon: <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />,
+      icon: (
+        <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />
+      ),
     },
     {
       title: 'Expert Negotiation',
       body: 'We engage directly with insurance companies to secure the highest possible returns on your claims.',
-      icon: <FaHandshake size={40} className="mx-auto !mb-4" aria-hidden={true} />,
+      icon: (
+        <FaHandshake size={40} className="mx-auto !mb-4" aria-hidden={true} />
+      ),
     },
     {
       title: 'Timely and Transparent',
@@ -65,7 +69,9 @@ export default function Home() {
     {
       title: 'Dedicated Support',
       body: 'Our commitment to personalized service means we are always available to assist with any questions or challenges.',
-      icon: <FaHeadset size={40} className="mx-auto !mb-4" aria-hidden={true} />,
+      icon: (
+        <FaHeadset size={40} className="mx-auto !mb-4" aria-hidden={true} />
+      ),
     },
   ];
 
@@ -74,10 +80,9 @@ export default function Home() {
       <NavBar />
       <main>
         <HeroSection
+          bgImage={homeHero.src}
           heading="Your Fast Track to Supplementing and Estimating"
           subheading="We prioritize your needs to ensure every claim is handled with care."
-          bgImage={homeHero.src}
-          ctaButton={true}
         >
           Welcome to Quick Claim Supplements. Our mission is to help you
           maximize the value of your insurance claims through our expert

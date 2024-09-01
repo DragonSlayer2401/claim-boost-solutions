@@ -6,9 +6,17 @@ import HeroSection from '../components/Sections/HeroSection';
 import TextSection from '../components/Sections/TextSection';
 import CardSection from '../components/Sections/CardSection';
 import { FaGavel, FaHandshake, FaPaperPlane, FaSearch } from 'react-icons/fa';
-import { BsClipboard2CheckFill } from "react-icons/bs";
+import { BsClipboard2CheckFill } from 'react-icons/bs';
 import InfoCard from '../components/Cards/InfoCard';
-import { FiBriefcase, FiCheckCircle, FiCheckSquare, FiClipboard, FiSearch, FiSend, FiUsers } from 'react-icons/fi';
+import {
+  FiBriefcase,
+  FiCheckCircle,
+  FiCheckSquare,
+  FiClipboard,
+  FiSearch,
+  FiSend,
+  FiUsers,
+} from 'react-icons/fi';
 
 export const metadata = {
   title: 'Services | Quick Claim Supplements',
@@ -34,7 +42,9 @@ export default function Services() {
     {
       title: 'Negotiation & Settlement',
       body: 'Negotiation with the insurance company to secure the highest settlement.',
-      icon: <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />,
+      icon: (
+        <FiCheckSquare size={40} className="mx-auto !mb-4" aria-hidden={true} />
+      ),
     },
   ];
 
@@ -44,7 +54,6 @@ export default function Services() {
       <main>
         <HeroSection
           bgImage={homeHero.src}
-          ctaButton={true}
           heading="Comprehensive Supplementing, Estimating, and Consulting Services"
           subheading="Maximize Your Insurance Claims with Expert Guidance"
         >
