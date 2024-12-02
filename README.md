@@ -54,13 +54,13 @@ To get a local copy up and running, follow these simple steps.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/quick-claim-supplements.git
+   git clone https://github.com/yourusername/claim-boost-solutions.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd quick-claim-supplements
+   cd claim-boost-solutions
    ```
 
 3. **Install dependencies:**
@@ -81,7 +81,7 @@ This will start the development server. Open http://localhost:3000 in your brows
 
 ## **Folder Structure**
 ```
-quick-claim-supplements/
+claim-boost-solutions/
 │
 ├── public/
 │   ├── images/
