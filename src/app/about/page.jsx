@@ -11,11 +11,11 @@ import logo from '../../../public/images/logo-bottom.png';
 
 export const metadata = {
   title:
-    'About Quick Claim Supplements | Expert Insurance Supplementing & Estimating Services',
+    'About ClaimBoost Solutions | Expert Insurance Supplementing & Estimating Services',
   description:
-    'Learn about Quick Claim Supplements, a trusted partner in maximizing insurance claims. Discover our commitment to providing expert supplementing and estimating services with a focus on customer satisfaction and integrity.',
+    'Learn about ClaimBoost Solutions, a trusted partner in maximizing insurance claims. Discover our commitment to providing expert supplementing and estimating services with a focus on customer satisfaction and integrity.',
   keywords: [
-    'About Quick Claim Supplements',
+    'About ClaimBoost Solutions',
     'insurance supplementing services',
     'insurance estimating services',
     'maximize insurance claims',
@@ -25,16 +25,10 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      'About Quick Claim Supplements | Expert Insurance Supplementing & Estimating Services',
+      'About ClaimBoost Solutions | Expert Insurance Supplementing & Estimating Services',
     description:
-      'Discover how Quick Claim Supplements provides top-tier insurance supplementing and estimating services with a commitment to maximizing your claims and ensuring customer satisfaction.',
+      'Discover how ClaimBoost Solutions provides top-tier insurance supplementing and estimating services with a commitment to maximizing your claims and ensuring customer satisfaction.',
     image: [
-      {
-        url: logo.src,
-        width: 500,
-        height: 500,
-        alt: 'Quick Claim Supplements Logo',
-      },
       {
         url: homeHero.src,
         width: 1280,
@@ -57,10 +51,10 @@ export default function About() {
       <main>
         <HeroSection
           bgImage={homeHero.src}
-          heading="About Quick Claim Supplements"
+          heading="About ClaimBoost Solutions"
           subheading="Leading Expert in Supplementing and Estimating Solutions"
         >
-          Since 2013, Quick Claim Supplements has been a trusted partner for
+          Since 2013,ClaimBoost Solutions has been a trusted partner for
           contractors and businesses seeking to maximize their insurance claims.
           Founded and operated by an industry veteran, our mission is to deliver
           expert supplementing and estimating services that enhance
@@ -72,17 +66,17 @@ export default function About() {
           title="Unmatched Insurance Supplementing Services"
           icon={<FaRegCircleCheck className="icon" aria-hidden={true} />}
         >
-          At Quick Claim Supplements, I pride myself on delivering unmatched
+          At ClaimBoost Solutions, I pride myself on delivering unmatched
           service in supplementing and estimating. My focus is on ensuring that
           every client receives the maximum value for their insurance claims.
           With personalized attention to detail, I support your business through
           every step of the process, from collections to invoicing.
         </TextSection>
         <TextSection
-          title="The Journey of Quick Claim Supplements"
+          title="The Journey of ClaimBoost Solutions"
           icon={<FaHistory className="icon" aria-hidden={true} />}
         >
-          Quick Claim Supplements was founded in 2013 after my experience as a
+          ClaimBoost Solutions was founded in 2013 after my experience as a
           project manager opened my eyes to the need for dedicated supplementing
           and estimating services. Having worked both the front and back end of
           the industry, I saw the opportunity to create a company that maximizes
@@ -94,7 +88,7 @@ export default function About() {
           title="Our Core Values: Integrity and Customer Satisfaction"
           icon={<FaRegHandshake className="icon" aria-hidden={true} />}
         >
-          As the sole operator of Quick Claim Supplements, my values guide every
+          As the sole operator of ClaimBoost Solutions, my values guide every
           decision I make. I believe in integrity, transparency, and a
           relentless focus on customer satisfaction. These values ensure that
           each client receives personalized service and the best possible
@@ -106,7 +100,7 @@ export default function About() {
           ctaButton={{ show: true }}
           icon={<MdOutlineContactMail className="icon" aria-hidden={true} />}
         >
-          Contact Quick Claim Supplements today to learn how I can help you
+          Contact ClaimBoost Solutions today to learn how I can help you
           maximize the value of your insurance claims. I am ready to provide the
           expert guidance and support you need to succeed in today’s competitive
           market.

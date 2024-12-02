@@ -5,44 +5,29 @@ import logo from '../../../public/images/logo-bottom.png';
 import HeroSection from '../components/Sections/HeroSection';
 import TextSection from '../components/Sections/TextSection';
 import CardSection from '../components/Sections/CardSection';
-import { FaGavel, FaHandshake, FaPaperPlane, FaSearch } from 'react-icons/fa';
-import { BsClipboard2CheckFill } from 'react-icons/bs';
 import InfoCard from '../components/Cards/InfoCard';
-import {
-  FiBriefcase,
-  FiCheckCircle,
-  FiCheckSquare,
-  FiClipboard,
-  FiSearch,
-  FiSend,
-  FiUsers,
-} from 'react-icons/fi';
+import { FiCheckSquare, FiSend, FiUsers } from 'react-icons/fi';
+import { BsClipboard2CheckFill } from 'react-icons/bs';
 
 export const metadata = {
-  title: 'Comprehensive Insurance Claim Services | Quick Claim Supplements',
+  title: 'Comprehensive Insurance Claim Services | ClaimBoost Solutions',
   description:
-    'Quick Claim Supplements offers specialized supplementing, estimating, and consulting services designed to maximize your insurance claim returns. With a focus on accuracy, efficiency, and customer satisfaction, we help you secure top dollar for every claim.',
+    'ClaimBoost Solutions offers specialized supplementing, estimating, and consulting services designed to maximize your insurance claim returns. With a focus on accuracy, efficiency, and customer satisfaction, we help you secure top dollar for every claim.',
   keywords: [
     'insurance claim supplementing',
     'estimating services',
     'business consulting',
     'maximize insurance claims',
-    'Quick Claim Supplements',
+    'ClaimBoost Solutions',
     'contractor services',
     'insurance consulting',
     'claim management',
   ],
   openGraph: {
-    title: 'Comprehensive Insurance Claim Services | Quick Claim Supplements',
+    title: 'Comprehensive Insurance Claim Services | ClaimBoost Solutions',
     description:
-      'At Quick Claim Supplements, we are dedicated to helping contractors and businesses maximize their insurance claim returns through expert supplementing, accurate estimating, and strategic consulting. Our services are tailored to enhance profitability and ensure every claim is handled with care.',
+      'At ClaimBoost Solutions, we are dedicated to helping contractors and businesses maximize their insurance claim returns through expert supplementing, accurate estimating, and strategic consulting. Our services are tailored to enhance profitability and ensure every claim is handled with care.',
     image: [
-      {
-        url: logo.src,
-        width: 500,
-        height: 500,
-        alt: 'Quick Claim Supplements Logo',
-      },
       {
         url: homeHero.src,
         width: 1280,
@@ -68,7 +53,13 @@ export default function Services() {
     {
       title: 'Detailed Review',
       body: 'Thorough review of your claim to identify maximization opportunities.',
-      icon: <FiSearch size={40} className="mx-auto !mb-4" aria-hidden={true} />,
+      icon: (
+        <BsClipboard2CheckFill
+          size={40}
+          className="mx-auto !mb-4"
+          aria-hidden={true}
+        />
+      ),
     },
     {
       title: 'Supplement Submission',
@@ -93,7 +84,7 @@ export default function Services() {
           heading="Comprehensive Supplementing, Estimating, and Consulting Services"
           subheading="Maximize Your Insurance Claims with Expert Guidance"
         >
-          At Quick Claim Supplements, we offer specialized services in
+          At ClaimBoost Solutions, we offer specialized services in
           supplementing, estimating, and consulting to help contractors and
           businesses maximize their insurance claims. With over a decade of
           industry experience, our expert team is dedicated to providing
@@ -115,7 +106,7 @@ export default function Services() {
           title="Accurate Estimating for Maximum Claim Value"
           ctaButton={{ show: true, text: 'Get a Quote' }}
         >
-          Quick Claim Supplements offers precise estimating services to ensure
+          ClaimBoost Solutions offers precise estimating services to ensure
           your insurance claims are fully documented and valued accurately.
           Using advanced tools like Xactimate, we provide detailed estimates
           that reflect the true cost of repairs or replacements. Our commitment
@@ -126,7 +117,7 @@ export default function Services() {
           title="Optimize Your Business with Expert Consulting"
           ctaButton={{ show: true, text: 'Start Consulting' }}
         >
-          Beyond our core services, Quick Claim Supplements provides consulting
+          Beyond our core services, ClaimBoost Solutions provides consulting
           to help your business run more efficiently and profitably. We work
           with you to streamline operations, improve customer service, and
           increase your bottom line. Our consulting services are designed to

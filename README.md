@@ -1,6 +1,6 @@
-# **Quick Claim Supplements - Website**
+# **ClaimBoost Solutions Supplements - Website**
 
-Welcome to the official repository for the Quick Claim Supplements website. This website is designed to provide a seamless user experience for clients looking to maximize the value of their insurance claims through expert supplementing and estimating services.
+Welcome to the official repository for the ClaimBoost Solutions website. This website is designed to provide a seamless user experience for clients looking to maximize the value of their insurance claims through expert supplementing and estimating services.
 
 ## **Table of Contents**
 
@@ -15,7 +15,7 @@ Welcome to the official repository for the Quick Claim Supplements website. This
 
 ## **Project Overview**
 
-The Quick Claim Supplements website is designed to offer clear, detailed information on our services, including comprehensive claim reviews, expert negotiation, timely updates, and dedicated support. The site features a responsive design, ensuring accessibility and usability across all devices.
+The ClaimBoost Solutions website is designed to offer clear, detailed information on our services, including comprehensive claim reviews, expert negotiation, timely updates, and dedicated support. The site features a responsive design, ensuring accessibility and usability across all devices.
 
 ## **Features**
 
@@ -140,5 +140,5 @@ For any inquiries or issues, please contact us at:
 - **Email:** [](mailto:)
 - **Phone:** [(407) 913-5152](tel:+14079135152)
 
-You can also visit our website at [Quick Claim Supplements](#).
+You can also visit our website at [ClaimBoost Solutions](#).
 

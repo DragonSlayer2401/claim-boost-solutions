@@ -7,7 +7,7 @@ import homeHero from '../../public/images/home-hero.webp';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Quick Claim Supplements',
+  title: 'ClaimBoost Solutions',
   description:
     'Expert supplementing and estimating services to help you secure the highest possible returns on your insurance claims.',
   icon: {

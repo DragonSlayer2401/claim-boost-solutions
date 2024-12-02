@@ -8,11 +8,11 @@ import logo from '../../../public/images/logo-bottom.png';
 
 export const metadata = {
   title:
-    'Contact Quick Claim Supplements | Expert Supplementing & Estimating Services',
+    'Contact ClaimBoost Solutions | Expert Supplementing & Estimating Services',
   description:
-    'Contact Quick Claim Supplements today to maximize your insurance claims. We offer expert supplementing and estimating services with personalized attention to every detail. Let us help you secure top dollar for your claims.',
+    'Contact ClaimBoost Solutions today to maximize your insurance claims. We offer expert supplementing and estimating services with personalized attention to every detail. Let us help you secure top dollar for your claims.',
   keywords: [
-    'contact Quick Claim Supplements',
+    'contact ClaimBoost Solutions',
     'insurance claim supplementing',
     'claim estimating services',
     'maximize insurance claims',
@@ -21,16 +21,10 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      'Contact Quick Claim Supplements | Expert Supplementing & Estimating Services',
+      'Contact ClaimBoost Solutions | Expert Supplementing & Estimating Services',
     description:
-      'Reach out to Quick Claim Supplements to ensure you get the most out of your insurance claims. We provide expert supplementing and estimating services with a focus on personalized attention and maximizing your returns.',
+      'Reach out to ClaimBoost Solutions to ensure you get the most out of your insurance claims. We provide expert supplementing and estimating services with a focus on personalized attention and maximizing your returns.',
     image: [
-      {
-        url: logo.src,
-        width: 500,
-        height: 500,
-        alt: 'Quick Claim Supplements Logo',
-      },
       {
         url: homeHero.src,
         width: 1280,
@@ -54,10 +48,10 @@ export default function Contact() {
         <HeroSection
           bgImage={homeHero.src}
           ctaButton={{ show: false }}
-          heading="Contact Quick Claim Supplements"
+          heading="Contact ClaimBoost Solutions"
           subheading="Your Partner in Maximizing Insurance Claims Since 2013"
         >
-          At Quick Claim Supplements, we are committed to providing you with
+          At ClaimBoost Solutions, we are committed to providing you with
           personalized service and expert guidance to ensure that your insurance
           claims are handled with precision and care. Reach out to us today and
           let us help you secure the maximum value for your claims.

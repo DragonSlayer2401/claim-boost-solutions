@@ -9,27 +9,21 @@ import { FiCheckSquare, FiClock } from 'react-icons/fi';
 import { FaHandshake, FaHeadset } from 'react-icons/fa';
 
 export const metadata = {
-  title: 'Quick Claim Supplements | Maximize Your Insurance Claims',
+  title: 'ClaimBoost Solutions | Maximize Your Insurance Claims',
   description:
-    'Quick Claim Supplements provides expert supplementing and estimating services to ensure you get the maximum value from your insurance claims. Contact us today!',
+    'ClaimBoost Solutions provides expert supplementing and estimating services to ensure you get the maximum value from your insurance claims. Contact us today!',
   keywords: [
     'supplementing',
     'estimating',
     'insurance claims',
     'claim maximization',
-    'Quick Claim Supplements',
+    'ClaimBoost Solutions',
   ],
   openGraph: {
-    title: 'Quick Claim Supplements | Maximize Your Insurance Claims',
+    title: 'ClaimBoost Solutions | Maximize Your Insurance Claims',
     description:
       'Expert supplementing and estimating services to help you secure the highest possible returns on your insurance claims.',
     image: [
-      {
-        url: logo.src,
-        width: 500,
-        height: 500,
-        alt: 'Quick Claim Supplements Logo',
-      },
       {
         url: homeHero.src,
         width: 1280,
@@ -84,7 +78,7 @@ export default function Home() {
           heading="Your Fast Track to Supplementing and Estimating"
           subheading="We prioritize your needs to ensure every claim is handled with care."
         >
-          Welcome to Quick Claim Supplements. Our mission is to help you
+          Welcome to ClaimBoost Solutions. Our mission is to help you
           maximize the value of your insurance claims through our expert
           supplementing and estimating services. With our attention to detail,
           we strive to secure top dollar for every job. Let us assist you with
