@@ -3,11 +3,9 @@ import NavBar from '../components/Header/NavBar';
 import HeroSection from '../components/Sections/HeroSection';
 import homeHero from '../../../public/images/home-hero.webp';
 import TextSection from '../components/Sections/TextSection';
-import { Button } from 'react-bootstrap';
 import { FaRegCircleCheck } from 'react-icons/fa6';
 import { FaHistory, FaRegHandshake } from 'react-icons/fa';
 import { MdOutlineContactMail } from 'react-icons/md';
-import logo from '../../../public/images/logo-bottom.png';
 
 export const metadata = {
   title:

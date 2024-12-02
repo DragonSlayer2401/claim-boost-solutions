@@ -1,5 +1,4 @@
 import NavBar from './components/Header/NavBar';
-import logo from '../../public/images/logo-bottom.png';
 import homeHero from '../../public/images/home-hero.webp';
 import Footer from './components/Footer/Footer';
 import HeroSection from './components/Sections/HeroSection';
