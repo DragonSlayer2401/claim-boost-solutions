@@ -6,7 +6,7 @@ const Banner = ({ title, children }) => {
   return (
     <>
       {show && (
-        <div className="fixed bottom-3 left-1/2 -translate-x-1/2 p-4 bg-yellow-50 border border-yellow-300 rounded-md shadow-lg">
+        <div className="fixed bottom-3 left-1/2 -translate-x-1/2 p-4 bg-yellow-50 border border-yellow-300 rounded-md shadow-lg z-50">
           <h1 className="text-2xl font-bold text-yellow-800">{title}</h1>
           <hr />
           <p className="mt-1 text-yellow-700 text-lg">{children}</p>
