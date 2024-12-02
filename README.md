@@ -137,8 +137,8 @@ quick-claim-supplements/
 ## **Contact**
 For any inquiries or issues, please contact us at:
 
-- **Email:** [](mailto:)
-- **Phone:** [(407) 913-5152](tel:+14079135152)
+- **Email:** [jacobskip7@gmail.com](mailto:jacobskip7@gmail.com)
+- **Phone:** [(315) 715-4000](tel:+13157154000)
 
 You can also visit our website at [ClaimBoost Solutions](#).
 

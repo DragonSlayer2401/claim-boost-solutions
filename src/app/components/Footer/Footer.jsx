@@ -45,9 +45,9 @@ const Footer = () => {
           </h4>
           <address className="mx-auto">
             <p>
-              Phone: <Link href="tel:+14079135152">(407) 913-5152</Link>
+              Phone: <Link href="tel:+13157154000">(315) 715-4000</Link>
             </p>
-            <p>Email: </p>
+            <p>Email: <a href='mailto:jacobskip7@gmail.com'>jacobskip7@gmail.com</a></p>
           </address>
         </div>
       </div>
