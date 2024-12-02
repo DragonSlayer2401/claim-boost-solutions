@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import './globals.css';
 import homeHero from '../../public/images/home-hero.webp';
+import Banner from './components/Banners/Banner';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -39,7 +40,13 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Banner title="Notice">
+          This is a portfolio project and not a real company or service.
+          Submitted data is for demonstration purposes only.
+        </Banner>
+      </body>
     </html>
   );
 }
