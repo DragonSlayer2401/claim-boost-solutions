@@ -4,7 +4,6 @@ import HeroSection from '../components/Sections/HeroSection';
 import homeHero from '../../../public/images/home-hero.webp';
 import ContactForm from '../components/Forms/ContactForm';
 import FormSection from '../components/Sections/FormSection';
-import logo from '../../../public/images/logo-bottom.png';
 
 export const metadata = {
   title:

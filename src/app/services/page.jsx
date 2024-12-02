@@ -1,7 +1,6 @@
 import Footer from '../components/Footer/Footer';
 import NavBar from '../components/Header/NavBar';
 import homeHero from '../../../public/images/home-hero.webp';
-import logo from '../../../public/images/logo-bottom.png';
 import HeroSection from '../components/Sections/HeroSection';
 import TextSection from '../components/Sections/TextSection';
 import CardSection from '../components/Sections/CardSection';
