@@ -1,4 +1,4 @@
-# **ClaimBoost Solutions Supplements - Website**
+# **ClaimBoost Solutions - Website**
 
 Welcome to the official repository for the ClaimBoost Solutions website. This website is designed to provide a seamless user experience for clients looking to maximize the value of their insurance claims through expert supplementing and estimating services.
 
