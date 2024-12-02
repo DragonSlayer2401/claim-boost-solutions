@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col gap-4 md:flex-row justify-between">
         <div>
           <h4 className="font-bold text-lg md:text-xl mb-4 mx-auto">
-          ClaimBoost Solutions
+            ClaimBoost Solutions
           </h4>
           <p className="mx-auto">
             Your fast track to supplementing and estimating. We prioritize your
@@ -51,11 +51,7 @@ const Footer = () => {
           </address>
         </div>
       </div>
-      <div className="flex justify-center mt-4 gap-x-2 text-sm text-center flex-col md:!text-left md:flex-row">
-        <p className="max-w-none">
-          Partnered with Ansel & Associates LLC Established in 2014
-        </p>
-        <span>|</span>
+      <div className="flex justify-center mt-4 text-sm text-center flex-col md:!text-left md:flex-row">
         <p className="max-w-none">
           &copy; {new Date().getFullYear()} ClaimBoost Solutions. All rights
           reserved.
