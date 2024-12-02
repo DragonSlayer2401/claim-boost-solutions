@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="py-10 !px-5">
+    <footer className="py-10 !px-6">
       <div className="flex flex-col gap-4 md:flex-row justify-between">
         <div>
           <h4 className="font-bold text-lg md:text-xl mb-4 mx-auto">
-            Quick Claim Supplements
+          ClaimBoost Solutions
           </h4>
           <p className="mx-auto">
             Your fast track to supplementing and estimating. We prioritize your
@@ -57,7 +57,7 @@ const Footer = () => {
         </p>
         <span>|</span>
         <p className="max-w-none">
-          &copy; {new Date().getFullYear()} Quick Claim Supplements. All rights
+          &copy; {new Date().getFullYear()} ClaimBoost Solutions. All rights
           reserved.
         </p>
       </div>
